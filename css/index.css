@@ -162,3 +162,33 @@ body {
         padding: 25px 10px;
     }
   }
+
+  @media only screen and (min-width: 800px) {
+      .photo--splash {
+          display: flex;
+      }
+      .container__splash {
+          flex-direction: row;
+      }
+
+      body {
+          max-width: 800px;
+          margin: auto;
+      }
+
+      .container__navigation {
+          flex-direction: row-reverse;
+          align-items: center;
+      }
+
+      .container__navigation--bottom {
+          width: 70%;
+          justify-content: space-between;
+          flex-direction: row;
+      }
+
+      .container__navigation--top {
+          justify-content: flex-start;
+          width: 30%;
+      }
+  }
