@@ -139,3 +139,26 @@ body {
     text-align: center;
     margin: 50px 0px;
 }
+
+@media only screen and (min-width: 500px) {
+    .container__navigation--bottom {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .navigation__link {
+        border: none;
+    }
+
+    .container__content--top {
+        flex-direction: row;
+    }
+
+    .container__content--bottom {
+        flex-direction: row;
+    }
+
+    .content__box {
+        padding: 25px 10px;
+    }
+  }
