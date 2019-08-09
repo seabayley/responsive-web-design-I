@@ -82,6 +82,7 @@ body {
     color: darkgrey;
     font-size: 16px;
     font-style: bold;
+    text-decoration: none;
 }
 
 .container__splash {
